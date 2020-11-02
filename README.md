@@ -18,20 +18,6 @@
     ```
 
 ## Examples
-Running DE-AIRL in PCG on **Multiroom** task:
-
-1) Train a reward function and a policy in *SeedEnv* with 40 *Seed Levels* 
-(expert demonstrations are provided in project files):
-    ``` 
-    python demonstrations_script.py -tn=minigrid -se=40
-    ```  
-2) Train a policy with the learnt reward function in the *ProcEnv*. Tipically the best model 
-to use is around ~15000 episodes (later ones tend to overfit to final behavior):
-    ```
-    python demonstrations_script.py -tn=minigrid -fr -rm=minigrid_40_15000
-    ```  
-
-------------------------------------------------------------------------
 
 Running DE-AIRL in PCG on **Potions** task:
 
@@ -46,6 +32,20 @@ Running DE-AIRL in PCG on **Potions** task:
  behavior):
     ```
     python demonstrations_script.py -tn=potions -fr -rm=potions_20_5000
+    ```  
+------------------------------------------------------------------------
+
+Running DE-AIRL in PCG on **Multiroom** task:
+
+1) Train a reward function and a policy in *SeedEnv* with 40 *Seed Levels* 
+(expert demonstrations are provided in project files):
+    ``` 
+    python demonstrations_script.py -tn=minigrid -se=40
+    ```  
+2) Train a policy with the learnt reward function in the *ProcEnv*. Tipically the best model 
+to use is around ~15000 episodes (later ones tend to overfit to final behavior):
+    ```
+    python demonstrations_script.py -tn=minigrid -fr -rm=minigrid_40_15000
     ```  
 
 
