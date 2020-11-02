@@ -71,8 +71,8 @@ if task_name == 'potions':
         game_name = 'envs/DeepCrawl-Potions-ProcEnv'
 
     # Import net structures
-    from net_structures.net_structures import dc2_net_conv_with_different_stats_cacca as net
-    from net_structures.net_structures import dc2_net_conv_with_different_stats_cacca as baseline
+    from net_structures.potions_structures import potions_net as net
+    from net_structures.potions_structures import potions_net as baseline
     # Work ID of the environment. To use the unity editor, the ID must be 0. To use more environments in parallel, use
     # different ids
     work_id = int(args.worker_id)
