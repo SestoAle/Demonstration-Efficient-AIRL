@@ -7,7 +7,7 @@
 
 * To install all required packages:
     ```
-   cd demonstration_efficient_code
+   cd Demonstration-Efficient-AIRL
    pip install -r requirements.txt
     ```  
 * To download and install DeepCrawl **Potions** task:
