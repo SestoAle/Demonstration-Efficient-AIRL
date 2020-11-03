@@ -2,7 +2,7 @@
 ## Supplementary Material
 This repository is intended as Supplementary Materials to the paper Demonstrations-Efficient Inverse Reinforcement Learning in procedural environments.
 
-You can access the Appendix section of the paper [here](Supplementary Material.pdf).
+You can access the Appendix section of the paper [here](Supplementary_Material.pdf).
 
 ### Prerequsites
 
