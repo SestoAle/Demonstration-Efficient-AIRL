@@ -2,7 +2,7 @@
 This repository is intended as **Supplementary Materials** to the paper Demonstrations-Efficient Inverse Reinforcement Learning in procedural environments.
 
 <p align="center">
-<img  src="https://media.giphy.com/media/xn2U2mHSixlFOn2Rqk/giphy.gif" width="60%" height="60%"/>
+<img  src="https://media.giphy.com/media/xn2U2mHSixlFOn2Rqk/giphy.gif" width="10%" height="10%"/>
 </p>
 
 You can access the **Appendix** section of the paper [here](Supplementary_Material.pdf).
