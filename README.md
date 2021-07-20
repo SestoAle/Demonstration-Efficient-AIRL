@@ -1,6 +1,10 @@
 # Demonstrations-Efficient Inverse Reinforcement Learning in Procedural Environments
 This repository is intended as **Supplementary Materials** to the paper Demonstrations-Efficient Inverse Reinforcement Learning in procedural environments.
 
+<p align="center">
+    <img src=https://i.imgur.com/1VuJPrd.gifv" width="800">
+</p>
+
 You can access the **Appendix** section of the paper [here](Supplementary_Material.pdf).
 
 ### Prerequsites
